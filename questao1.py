@@ -1,0 +1,5 @@
+print("=====Questão 01=====")
+tempF = float(input("Informe uma temperatura em Farenheit:\n"))
+tempC = (5 * (tempF - 32)/9)
+print("{} em farenheit é: {}".format(tempF, tempC))
+input("Pressione <enter> para sair")
